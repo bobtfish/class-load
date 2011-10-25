@@ -1,5 +1,8 @@
 {{$NEXT}}
 
+- Require Module::Runtime >= 0.011 to work around core bug affecting perl
+  5.8 and 5.10 in some cases.
+
 0.11     2011-10-04
 
 - Don't accept package names that start with a digit. ( Jesse Luehrs )
